@@ -90,10 +90,9 @@ footer {
 }
 
 .hero {
-  background-image: url(/images/Viva-Streets-Austin--by-Bike-Texas.jpg);
+  background-image: url(../images/Viva-Streets-Austin--by-Bike-Texas.jpg);
 	background-size: 100%;
 	background-position: center;
-	background-attachment: auto;
 	background-repeat: no-repeat;
   margin-top: -2%;
   z-index: 0;
@@ -199,10 +198,9 @@ h3 {
 }
 
 .heart-ciclovia {
-  background-image: url(/images/IMG_2469--by-Alyssa-Bird.jpg);
+  background-image: url(../images/IMG_2469--by-Alyssa-Bird.jpg);
   background-size: 100%;
   background-position: center;
-  background-attachment: auto;
   background-repeat: no-repeat;
   margin-top: 0px;
   z-index: 0;
@@ -219,6 +217,7 @@ h3 {
   }
   footer {
     border-top: 3px solid rgba(230, 230, 0, 1);
+    min-height: 50px;
   }
   .hero, .heart-ciclovia {
     margin-top: 0px;
