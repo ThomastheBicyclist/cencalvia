@@ -1,0 +1,245 @@
+/*rgba(230, 230, 0, 1);
+rgba(150, 200, 0, 1);
+rgba(0, 65, 60, 1);
+rgba(0, 40, 20, 1);*/
+
+body {
+  background: white;
+  margin: 0px;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+#main {
+ /*min-height: 800px;*/
+ margin: 0px;
+ padding: 0px;
+ display: -webkit-flex;
+ display:         flex;
+ -webkit-flex-flow: row;
+         flex-flow: row;
+  z-index: 0;
+ }
+
+#main > article {
+ background: white;
+ -webkit-flex: 3 1 70%;
+         flex: 3 1 70%;
+ -webkit-order: 2;
+         order: 2;
+ }
+
+#main > #left-space {
+ background: white;
+ -webkit-flex: 1 6 15%;
+         flex: 1 6 15%;
+ -webkit-order: 1;
+         order: 1;
+ }
+
+#main > #right-space {
+ background: white;
+ -webkit-flex: 1 6 15%;
+         flex: 1 6 15%;
+ -webkit-order: 3;
+         order: 3;
+ }
+
+nav, footer {
+ display: block;
+ min-height: 68px;
+ background: rgba(150, 200, 0, 1);
+ z-index: 10;
+ }
+
+nav {
+   border-bottom: 5px solid rgba(230, 230, 0, 1);
+}
+
+footer {
+  border-top: 5px solid rgba(230, 230, 0, 1);
+}
+
+/* Too narrow to support three columns */
+@media all and (max-width: 640px) {
+
+  #main, #page {
+    -webkit-flex-flow: column;
+            flex-direction: column;
+  }
+
+  #main > article, #main > #left-space, #main > #right-space {
+    /* Return them to document order */
+    -webkit-order: 0;
+            order: 0;
+  }
+
+  #main > #left-space, #main > #right-space, footer {
+    min-height: 0px;
+    max-height: 0px;
+  }
+}
+
+.hero {
+  background-image: url(/images/Viva-Streets-Austin--by-Bike-Texas.jpg);
+	background-size: 100%;
+	background-position: center;
+	background-attachment: auto;
+	background-repeat: no-repeat;
+  margin-top: -2%;
+  z-index: 0;
+}
+
+.hero:before {
+	display: block;
+	content: "";
+	padding: 33%;
+}
+
+#headline {
+    font-family: 'Kaushan Script', cursive;
+    color: rgba(230, 230, 0, 1);
+    font-weight: 400;
+    font-size: 12.5vw;
+    line-height: 18vw;
+    max-width: 830px;
+    /*-webkit-text-stroke: 2px rgba(0, 40, 20, 1);
+    text-shadow:
+        4px 4px 0 rgba(0, 40, 20, 1),
+      -1px -1px 0 rgba(0, 40, 20, 1);*/
+}
+
+.hero-text-container {
+    position: inherit;
+    bottom: 25px;
+    margin-left: 4%;
+    margin-top: -28%;
+}
+
+#subhead {
+  position: inherit;
+  font-family: 'Helvetica';
+  color: white;
+  font-weight: bolder;
+  font-size: 3vw;
+  margin-left: 8%;
+  line-height: 3vw;
+  padding-bottom: 3vw;
+}
+
+.subhead-container {
+  position: inherit;
+  margin-top: -3%;
+}
+
+h2 {
+  font-size: 3vw;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  color: rgba(0, 40, 20, 1);
+}
+
+p {
+  font-family: "Helvetica", sans-serif;
+}
+
+#navbar-div {
+  text-align: center;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: row;
+          flex-flow: row;
+  justify-content: space-around;
+  -ms-align-items: center;
+  align-items: center;
+}
+.navbar-text {
+  margin: auto 0;
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: rgba(140, 180, 0, 1);
+}
+
+#map {
+  height: 300px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgba(150, 200, 0, 1);
+}
+
+h3 {
+  font-family: "Helvetica", sans-serif;
+  color: rgba(140, 180, 0, 1);
+  margin-bottom: -14px;
+}
+
+.the-plan, .page-header {
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 5em;
+  margin-left: -15px;
+}
+
+.spacer-div {
+  height: 30px;
+}
+
+.heart-ciclovia {
+  background-image: url(/images/IMG_2469--by-Alyssa-Bird.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: auto;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  z-index: 0;
+}
+.heart-ciclovia:before {
+	display: block;
+	content: "";
+	padding: 33%;
+}
+
+
+@media only screen and (max-width: 640px) {
+  header {
+    border-bottom: 3px solid rgba(230, 230, 0, 1);
+  }
+  footer {
+    border-top: 3px solid rgba(230, 230, 0, 1);
+  }
+  .hero, .heart-ciclovia {
+    margin-top: 0px;
+  }
+  #headline {
+    font-size: 18.5vw;
+  }
+  #subhead {
+    font-size: 4.5vw;
+  }
+  .subhead-container {
+    margin-top: 1%;
+  }
+  .navbar-text {
+    margin-top: 22px;
+  }
+  h2 {
+    font-size: 4.5vw;
+  }
+  .article-text-padding {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+}
