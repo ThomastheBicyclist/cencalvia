@@ -245,8 +245,8 @@ h3 {
     margin-right: 5vw;
   }
   .site {
-    display: auto;
-    min-height: 0px;
+    display: block;
+    min-height: 100%;
     flex-direction: none;
   }
   .site-content {
