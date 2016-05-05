@@ -77,7 +77,7 @@ footer {
             flex-direction: column;
   }
 
-  #main > article, #main > #left-space, #main > #right-space {
+  #main > article, #main > #left-space, #main > #right-space, #main > footer {
     /* Return them to document order */
     -webkit-order: 0;
             order: 0;
@@ -94,7 +94,7 @@ footer {
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-  margin-top: -2%;
+  margin-top: -8px;
   z-index: 0;
 }
 
