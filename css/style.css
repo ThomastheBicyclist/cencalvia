@@ -282,7 +282,7 @@ h3 {
     margin-right: 5vw;
   }
   .site {
-    display: block;
+    display: auto;
     flex-flow: none;
     min-height: 0px;
   }
