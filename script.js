@@ -5,7 +5,7 @@ function initMap() {
                   mapTypeId: google.maps.MapTypeId.TERRAIN
             });
 
-            var flightPlanCoordinates = [
+            var eventCoords = [
                   {lat: 36.7359019, lng: -119.7725641},
                   {lat: 36.7359019, lng: -119.7545974}
             ];
@@ -34,13 +34,13 @@ function initMap() {
             });
             marker.addListener('click', drop);
 
-        var flightPath = new google.maps.Polyline({
-          path: flightPlanCoordinates,
+        var eventLocation = new google.maps.Polyline({
+          path: eventCoords,
           geodesic: true,
           strokeColor: 'rgba(150, 200, 0, 1)',
           strokeOpacity: 1.0,
           strokeWeight: 6
         });
 
-        flightPath.setMap(map);
+        eventLocation.setMap(map);
       }
