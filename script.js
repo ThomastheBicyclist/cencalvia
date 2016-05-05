@@ -10,6 +10,14 @@ function initMap() {
                   {lat: 36.7359019, lng: -119.7545974}
             ];
 
+            function drop() {
+                  for (var i =0; i < markerArray.length; i++) {
+                        setTimeout(function() {
+                              addMarkerMethod();
+                        }, i * 400);
+                  }
+            }
+
             marker = new google.maps.Marker({
                   map: map,
                   draggable: true,
@@ -26,18 +34,10 @@ function initMap() {
             });
             marker.addListener('click', drop);
 
-            function drop() {
-                  for (var i =0; i < markerArray.length; i++) {
-                        setTimeout(function() {
-                              addMarkerMethod();
-                        }, i * 400);
-                  }
-            }
-
         var flightPath = new google.maps.Polyline({
           path: flightPlanCoordinates,
           geodesic: true,
-          strokeColor: 'rgba(230, 230, 0, 1)',
+          strokeColor: 'rgba(150, 200, 0, 1)',
           strokeOpacity: 1.0,
           strokeWeight: 6
         });

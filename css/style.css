@@ -274,6 +274,7 @@ h3 {
   footer {
     border-top: 3px solid rgba(230, 230, 0, 1);
     min-height: 50px;
+    display: block;
   }
   .credit {
     margin-left: 5vw;
