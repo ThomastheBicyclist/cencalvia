@@ -205,12 +205,15 @@ h3 {
 }
 
 .site {
-  display: flex;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: column;
+          flex-flow: column;
   min-height: 100vh;
-  flex-direction: column;
 }
 .site-content {
-  flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
 }
 
 /* Too narrow to support three columns */
