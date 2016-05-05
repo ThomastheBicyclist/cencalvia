@@ -252,6 +252,9 @@ h3 {
   .navbar-text {
     margin-top: 22px;
   }
+  article {
+    margin-bottom: 50px;
+  }
   .heart-ciclovia {
     margin-top: 0px;
   }
@@ -272,7 +275,6 @@ h3 {
     margin-right: 5vw;
   }
   footer {
-    margin-top: 30px;
     border-top: 3px solid rgba(230, 230, 0, 1);
     min-height: 50px;
   }
