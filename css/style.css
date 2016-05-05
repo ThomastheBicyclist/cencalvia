@@ -249,14 +249,6 @@ h3 {
   .navbar-text {
     margin-top: 22px;
   }
-  .site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  .site-content {
-    flex: 0;
-  }
   .heart-ciclovia {
     margin-top: 0px;
   }
