@@ -279,9 +279,11 @@ h3 {
   }
   .credit {
     margin-left: 5vw;
+    z-index: -4;
   }
   .thomas {
     margin-right: 5vw;
+    z-index: -4;
   }
   .site {
     display: auto;
