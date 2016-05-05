@@ -222,7 +222,10 @@ h3 {
     border-top: 3px solid rgba(230, 230, 0, 1);
     min-height: 50px;
   }
-  .hero, .heart-ciclovia {
+  .hero {
+    margin-top: -30px;
+  }
+  .heart-ciclovia {
     margin-top: 0px;
   }
   #headline {
