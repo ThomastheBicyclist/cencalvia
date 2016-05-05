@@ -194,6 +194,17 @@ h3 {
 	padding: 33%;
 }
 
+.credit {
+  font-family: "Helvetica", sans-serif;
+  font-size: 11px;
+  margin-left: 15%;
+  margin-top: 14px;
+}
+.credit a {
+  color: rgba(0, 40, 20, 1);
+}
+
+
 /* Too narrow to support three columns */
 @media all and (max-width: 640px) {
 
@@ -213,7 +224,6 @@ h3 {
     max-height: 0px;
   }
 }
-
 
 @media only screen and (max-width: 640px) {
   header {
@@ -255,5 +265,8 @@ h3 {
   }
   .site-content {
     flex: 0;
+  }
+  .credit {
+    margin-left: 5vw;
   }
 }
