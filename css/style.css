@@ -291,7 +291,7 @@ h3 {
     min-height: 0px;
   }
   .site-content {
-    -webkit-flex: 0;
-            flex: 0;
+    -webkit-flex: 0 auto;
+            flex: 0 auto;
   }
 }
