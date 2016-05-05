@@ -67,6 +67,8 @@ nav {
 footer {
   border-top: 5px solid rgba(230, 230, 0, 1);
   min-height: 50px;
+  -webkit-order: 4;
+          order: 4;
 }
 
 /* Too narrow to support three columns */
@@ -240,5 +242,13 @@ h3 {
   .article-text-padding {
     margin-left: 5vw;
     margin-right: 5vw;
+  }
+  .site {
+    display: auto;
+    min-height: 0px;
+    flex-direction: none;
+  }
+  .site-content {
+    flex: 0;
   }
 }
