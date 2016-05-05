@@ -71,26 +71,6 @@ footer {
           order: 4;
 }
 
-/* Too narrow to support three columns */
-@media all and (max-width: 640px) {
-
-  #main, #page {
-    -webkit-flex-flow: column;
-            flex-direction: column;
-  }
-
-  #main > article, #main > #left-space, #main > #right-space, #main > footer {
-    /* Return them to document order */
-    -webkit-order: 0;
-            order: 0;
-  }
-
-  #main > #left-space, #main > #right-space {
-    min-height: 0px;
-    max-height: 0px;
-  }
-}
-
 .hero {
   background-image: url(../images/Viva-Streets-Austin--by-Bike-Texas.jpg);
 	background-size: 100%;
@@ -212,6 +192,27 @@ h3 {
 	content: "";
 	padding: 33%;
 }
+
+/* Too narrow to support three columns */
+@media all and (max-width: 640px) {
+
+  #main, #page {
+    -webkit-flex-flow: column;
+       flex-direction: column;
+  }
+
+  #main > article, #main > #left-space, #main > #right-space {
+    /* Return them to document order */
+    -webkit-order: 0;
+            order: 0;
+  }
+
+  #main > #left-space, #main > #right-space {
+    min-height: 0px;
+    max-height: 0px;
+  }
+}
+
 
 @media only screen and (max-width: 640px) {
   header {
