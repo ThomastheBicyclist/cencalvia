@@ -201,7 +201,7 @@ h3 {
        flex-direction: column;
   }
 
-  #main > article, #main > #left-space, #main > #right-space {
+  #main > #left-space, #main > #right-space {
     /* Return them to document order */
     -webkit-order: 0;
             order: 0;
