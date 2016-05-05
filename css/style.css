@@ -8,16 +8,6 @@ body {
   margin: 0px;
 }
 
-.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.site-content {
-  flex: 1;
-}
-
 #main {
  /*min-height: 800px;*/
  margin: 0px;
@@ -57,11 +47,13 @@ nav, footer {
  display: block;
  min-height: 68px;
  background: rgba(150, 200, 0, 1);
- z-index: 10;
  }
 
 nav {
-   border-bottom: 5px solid rgba(230, 230, 0, 1);
+  border-bottom: 5px solid rgba(230, 230, 0, 1);
+  padding-right: 5vw;
+  padding-left: 5vw;
+  z-index: 100 !important;
 }
 
 footer {
@@ -76,14 +68,13 @@ footer {
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-  margin-top: -1.2vw;
-  z-index: 0;
+  z-index: 0 !important;
 }
 
 .hero:before {
 	display: block;
 	content: "";
-	padding: 33%;
+	padding: 30%;
 }
 
 #headline {
@@ -199,11 +190,28 @@ h3 {
   font-size: 11px;
   margin-left: 15%;
   margin-top: 14px;
+  display: block;
 }
 .credit a {
   color: rgba(0, 40, 20, 1);
 }
+.thomas {
+  font-family: "Helvetica", sans-serif;
+  font-size: 11px;
+  margin-right: 15%;
+  margin-top: -13px;
+  float: right;
+  display: block;
+}
 
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.site-content {
+  flex: 1;
+}
 
 /* Too narrow to support three columns */
 @media all and (max-width: 640px) {
@@ -213,7 +221,7 @@ h3 {
        flex-direction: column;
   }
 
-  #main > #left-space, #main > #right-space {
+  #main > #left-space, #main > #right-space, #main > article, #main > footer {
     /* Return them to document order */
     -webkit-order: 0;
             order: 0;
@@ -226,15 +234,25 @@ h3 {
 }
 
 @media only screen and (max-width: 640px) {
-  header {
+  nav {
     border-bottom: 3px solid rgba(230, 230, 0, 1);
   }
-  footer {
-    border-top: 3px solid rgba(230, 230, 0, 1);
-    min-height: 50px;
+  nav > div:nth-child(1) {
+    margin-left: 0px;
   }
-  .hero {
-    margin-top: -30px;
+  nav > div:nth-child(3) {
+    margin-right: 0px;
+  }
+  .navbar-text {
+    margin-top: 22px;
+  }
+  .site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .site-content {
+    flex: 0;
   }
   .heart-ciclovia {
     margin-top: 0px;
@@ -248,9 +266,6 @@ h3 {
   .subhead-container {
     margin-top: 1%;
   }
-  .navbar-text {
-    margin-top: 22px;
-  }
   h2 {
     font-size: 4.5vw;
   }
@@ -258,15 +273,14 @@ h3 {
     margin-left: 5vw;
     margin-right: 5vw;
   }
-  .site {
-    display: block;
-    min-height: 100%;
-    flex-direction: none;
-  }
-  .site-content {
-    flex: 0;
+  footer {
+    border-top: 3px solid rgba(230, 230, 0, 1);
+    min-height: 50px;
   }
   .credit {
     margin-left: 5vw;
+  }
+  .thomas {
+    margin-right: 5vw;
   }
 }
