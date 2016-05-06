@@ -8,16 +8,6 @@ body {
   margin: 0px;
 }
 
-.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.site-content {
-  flex: 1;
-}
-
 #main {
  /*min-height: 800px;*/
  margin: 0px;
@@ -57,51 +47,36 @@ nav, footer {
  display: block;
  min-height: 68px;
  background: rgba(150, 200, 0, 1);
- z-index: 10;
+ flex: none;
  }
 
 nav {
-   border-bottom: 5px solid rgba(230, 230, 0, 1);
+  border-bottom: 5px solid rgba(230, 230, 0, 1);
+  padding-right: 5vw;
+  padding-left: 5vw;
+  z-index: 100 !important;
 }
 
 footer {
   border-top: 5px solid rgba(230, 230, 0, 1);
-}
-
-/* Too narrow to support three columns */
-@media all and (max-width: 640px) {
-
-  #main, #page {
-    -webkit-flex-flow: column;
-            flex-direction: column;
-  }
-
-  #main > article, #main > #left-space, #main > #right-space {
-    /* Return them to document order */
-    -webkit-order: 0;
-            order: 0;
-  }
-
-  #main > #left-space, #main > #right-space, footer {
-    min-height: 0px;
-    max-height: 0px;
-  }
+  min-height: 50px;
+  -webkit-order: 4;
+          order: 4;
 }
 
 .hero {
-  background-image: url(/images/Viva-Streets-Austin--by-Bike-Texas.jpg);
+  background-image: url(../images/Viva-Streets-Austin--by-Bike-Texas.jpg);
 	background-size: 100%;
 	background-position: center;
-	background-attachment: auto;
 	background-repeat: no-repeat;
-  margin-top: -2%;
-  z-index: 0;
+  z-index: 0 !important;
+  border-bottom: 3px solid rgba(230, 230, 0, 1);
 }
 
 .hero:before {
 	display: block;
 	content: "";
-	padding: 33%;
+	padding: 30%;
 }
 
 #headline {
@@ -178,7 +153,7 @@ a {
 #map {
   height: 300px;
   margin-bottom: 20px;
-  border-bottom: 3px solid rgba(150, 200, 0, 1);
+  border-bottom: 3px solid rgba(230, 230, 0, 1);
 }
 
 h3 {
@@ -191,6 +166,7 @@ h3 {
   font-family: "Kaushan Script", sans-serif;
   font-size: 5em;
   margin-left: -15px;
+  color: rgba(0, 40, 20, 1);
 }
 
 .spacer-div {
@@ -198,13 +174,13 @@ h3 {
 }
 
 .heart-ciclovia {
-  background-image: url(/images/IMG_2469--by-Alyssa-Bird.jpg);
+  background-image: url(../images/img2469byalyssabird.jpg);
   background-size: 100%;
   background-position: center;
-  background-attachment: auto;
   background-repeat: no-repeat;
   margin-top: 0px;
   z-index: 0;
+  border-bottom: 3px solid rgba(230, 230, 0, 1);
 }
 .heart-ciclovia:before {
 	display: block;
@@ -212,15 +188,73 @@ h3 {
 	padding: 33%;
 }
 
+.credit {
+  font-family: "Helvetica", sans-serif;
+  font-size: 11px;
+  margin-left: 15%;
+  margin-top: 14px;
+  display: block;
+}
+.credit a {
+  color: rgba(0, 40, 20, 1);
+}
+.thomas {
+  font-family: "Helvetica", sans-serif;
+  font-size: 11px;
+  margin-right: 15%;
+  margin-top: -13px;
+  float: right;
+  display: block;
+}
+.thomas-about {
+  font-family: "Helvetica", sans-serif;
+  font-size: 11px;
+  margin-right: 15%;
+  margin-top: 14px;
+  float: right;
+  display: block;
+}
+
+.site {
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-flex-flow: column;
+          flex-flow: column;
+  min-height: 100vh;
+}
+.site-content {
+  -webkit-flex: 1;
+          flex: 1;
+}
+
+/* Too narrow to support three columns */
+@media all and (max-width: 640px) {
+
+  #main, #page {
+    -webkit-flex-flow: column;
+       flex-direction: column;
+  }
+
+  #main > #left-space, #main > #right-space, #main > article, #main > footer {
+    /* Return them to document order */
+    -webkit-order: 0;
+            order: 0;
+  }
+
+  #main > #left-space, #main > #right-space {
+    min-height: 0px;
+    max-height: 0px;
+  }
+}
 
 @media only screen and (max-width: 640px) {
-  header {
+  nav {
     border-bottom: 3px solid rgba(230, 230, 0, 1);
   }
-  footer {
-    border-top: 3px solid rgba(230, 230, 0, 1);
+  .navbar-text {
+    margin-top: 22px;
   }
-  .hero, .heart-ciclovia {
+  .heart-ciclovia {
     margin-top: 0px;
   }
   #headline {
@@ -232,14 +266,34 @@ h3 {
   .subhead-container {
     margin-top: 1%;
   }
-  .navbar-text {
-    margin-top: 22px;
-  }
   h2 {
     font-size: 4.5vw;
   }
   .article-text-padding {
     margin-left: 5vw;
     margin-right: 5vw;
+  }
+  footer {
+    border-top: 3px solid rgba(230, 230, 0, 1);
+    min-height: 50px;
+    display: block;
+    z-index: -5
+  }
+  .credit {
+    margin-left: 5vw;
+    z-index: -4;
+  }
+  .thomas {
+    margin-right: 5vw;
+    z-index: -4;
+  }
+  .site {
+    display: auto;
+    flex-flow: none;
+    min-height: 0px;
+  }
+  .site-content {
+    -webkit-flex: 0 auto;
+            flex: 0 auto;
   }
 }
