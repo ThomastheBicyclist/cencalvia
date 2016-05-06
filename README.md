@@ -21,6 +21,5 @@ Sponsoring an open streets project is a great way to help create a healthy and  
 
 For more information, please contact: Ed Smith (559) 892-8996 info@CenCalVia.org
 
-- www.CenCalVia.org
 - www.fresnobike.org
-- www.openstreetsprojects.org
+- openstreetsproject.org
