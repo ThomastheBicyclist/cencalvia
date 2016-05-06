@@ -6,7 +6,7 @@ Over 50  cities in the US already temporarily turn commercial streets into “pa
 
 Sponsoring an open streets project is a great way to help create a healthy and  vibrant community and to spur economic activity.  A 2010 study found that 40.4% of Fresno’s children are overweight or obese. The City of Fresno has been dead last of the largest US cities with respect to park acreage. The availability of safe, open spaces for people is critical to our public health and special events encourage increased spending  and return business.
 
-## The Plan:
+## The Plan
 **Who**: Organized by The Fresno County  Bicycle Coalition in partnership with Cultiva La Salud, the Central Valley Community Foundation, Bici Projects.
 
 **What**: Streets close for an afternoon of family friendly fun and physical activity for people from all ages and walks of life.
