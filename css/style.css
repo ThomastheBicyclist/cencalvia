@@ -70,6 +70,7 @@ footer {
 	background-position: center;
 	background-repeat: no-repeat;
   z-index: 0 !important;
+  border-bottom: 3px solid rgba(230, 230, 0, 1);
 }
 
 .hero:before {
@@ -152,7 +153,7 @@ a {
 #map {
   height: 300px;
   margin-bottom: 20px;
-  border-bottom: 3px solid rgba(150, 200, 0, 1);
+  border-bottom: 3px solid rgba(230, 230, 0, 1);
 }
 
 h3 {
@@ -179,6 +180,7 @@ h3 {
   background-repeat: no-repeat;
   margin-top: 0px;
   z-index: 0;
+  border-bottom: 3px solid rgba(230, 230, 0, 1);
 }
 .heart-ciclovia:before {
 	display: block;
