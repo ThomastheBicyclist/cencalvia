@@ -16,6 +16,6 @@ How: With your support.
 
 For more information, please contact: Ed Smith (559) 892-8996 info@CenCalVia.org
 
-www.CenCalVia.org
-www.fresnobike.org
-www.openstreetsprojects.org
+- www.CenCalVia.org
+- www.fresnobike.org
+- www.openstreetsprojects.org
