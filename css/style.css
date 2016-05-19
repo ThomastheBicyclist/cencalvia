@@ -308,7 +308,6 @@ h3 {
     width: 100%;
     display: block;
     z-index: -5;
-    position: absolute;
     bottom: -13vw;
   }
   .credit {
@@ -320,8 +319,10 @@ h3 {
     z-index: -4;
   }
   .site {
+    display: -webkit-auto;
     display: auto;
-    flex-flow: none;
+    -webkit-flex-flow: none;
+            flex-flow: none;
     min-height: 0px;
   }
   .site-content {
