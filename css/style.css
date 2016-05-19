@@ -307,7 +307,7 @@ h3 {
     min-height: 50px;
     width: 100%;
     display: block;
-    z-index: -5;
+    z-index: 0;
     bottom: -13vw;
   }
   .credit {
