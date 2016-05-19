@@ -46,11 +46,7 @@ body {
 nav, footer {
  display: block;
  min-height: 68px;
-<<<<<<< HEAD
- background: rgba(150, 200, 0, 1);
-=======
  background: rgba(137, 197, 64, 1);
->>>>>>> master
  flex: none;
  }
 

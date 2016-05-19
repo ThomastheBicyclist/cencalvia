@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-# CenCalVia
-
-CenCalVia Open Streets will bring the open streets movement to The Central Valley. It will stimulate the local economy, change the narrative of Fresno, and engage the community in a wide variety of healthy physical activities.
-=======
 # **CenCalVia**
 
 ###### CenCalVia Open Streets will bring the open streets movement to The Central Valley. It will stimulate the local economy, change the narrative of Fresno, and engage the community in a wide variety of healthy physical activities.
->>>>>>> master
 
 Over 50  cities in the US already temporarily turn commercial streets into “paved parks”.   Residents are invited to bike, walk, skate, take classes in yoga, zumba, hula hooping, bicycle safety and repair, or martial arts along the streets and sidewalks without car traffic.  Area businesses benefit by selling  food and non-alcoholic drinks, drawing increased foot traffic and by generating significant community goodwill with their participation.  Some other ways businesses can participate might be to create activity stations, sponsor a band or donate to the many expenses involved in managing an event that will attract at least 1000 participants.  
 
@@ -33,7 +27,6 @@ How: With your support.
 **Why**: Open streets events are fun, healthy activities that enliven neighborhoods
 
 **How**: With your support.
->>>>>>> master
 
 For more information, please contact: Ed Smith (559) 892-8996 info@CenCalVia.org
 
