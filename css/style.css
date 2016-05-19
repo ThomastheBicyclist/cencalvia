@@ -293,7 +293,7 @@ h3 {
     border-top: 3px solid rgba(252, 218, 0, 1);
     min-height: 50px;
     width: 100%;
-    z-index: 0;
+    z-index: -5;
     bottom: -13vw;
     -webkit-order: 20;
             order: 20;
