@@ -185,7 +185,7 @@ h3 {
 
 .the-plan, .page-header {
   font-family: "Bowlby One SC", sans-serif;
-  font-size: 5em;
+  font-size: 4em;
   margin-left: -15px;
   color: black;
 }
@@ -251,6 +251,10 @@ h3 {
 /* Too narrow to support three columns */
 @media all and (max-width: 640px) {
 
+
+}
+
+@media only screen and (max-width: 640px) {
   #main, #page {
     -webkit-flex-flow: column;
        flex-direction: column;
@@ -266,9 +270,7 @@ h3 {
     min-height: 0px;
     max-height: 0px;
   }
-}
 
-@media only screen and (max-width: 640px) {
   nav {
     border-bottom: 3px solid rgba(252, 218, 0, 1);
   }
