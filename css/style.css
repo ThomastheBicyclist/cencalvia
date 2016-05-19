@@ -248,7 +248,7 @@ h3 {
        flex-direction: column;
   }
 
-  #main > #left-space, #main > #right-space, #main > article, #main > footer {
+  #main > #left-space, #main > #right-space, #main > article {
     -webkit-order: 0;
             order: 0;
   }
