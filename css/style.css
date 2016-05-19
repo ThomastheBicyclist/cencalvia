@@ -320,10 +320,10 @@ h3 {
     z-index: -4;
   }
   .site {
-    display: -webkit-auto;
-    display: auto;
-    -webkit-flex-flow: none;
-            flex-flow: none;
+    display: -webkit-block;
+    display: block;
+    -webkit-flex-flow: auto;
+            flex-flow: auto;
     min-height: 0px;
   }
   .site-content {
