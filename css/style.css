@@ -8,41 +8,9 @@ body {
   margin: 0px;
 }
 
-/*#main {
- margin: 0px;
- padding: 0px;
- display: -webkit-flex;
- display:         flex;
- -webkit-flex-flow: row;
-         flex-flow: row;
-  z-index: 0;
- }*/
-
 #main > article {
   margin-left: 15%;
   margin-right: 15%;
- /*background: white;
- -webkit-flex: 3 1 70%;
-         flex: 3 1 70%;
- -webkit-order: 2;
-         order: 2;*/
- }
-
-#main > #left-space {
- /*background: white;
- -webkit-flex: 1 6 15%;
-         flex: 1 6 15%;
- -webkit-order: 1;
-         order: 1;*/
- }
-
-#main > #right-space {
-
- /*background: white;
- -webkit-flex: 1 6 15%;
-         flex: 1 6 15%;
- -webkit-order: 3;
-         order: 3;*/
  }
 
 nav, footer {
@@ -175,7 +143,7 @@ h3 {
 .the-plan, .page-header {
   font-family: "Bowlby One SC", sans-serif;
   font-size: 4em;
-  margin-left: -15px;
+  margin-left: -10px;
   color: black;
 }
 
@@ -251,19 +219,6 @@ h3 {
     margin-right: 0;
     width: 100%
   }
-  /*#main, #page {
-    -webkit-flex-flow: column;
-       flex-direction: column;
-  }
-
-  #main > #left-space, #main > #right-space, #main > article {
-
-   -webkit-box-ordinal-group: 0;
-      -moz-box-ordinal-group: 0;
-              -ms-flex-order: 0;
-               -webkit-order: 0;
-                       order: 0;
-  }*/
 
   #main > #left-space, #main > #right-space {
     min-height: 0px;
@@ -297,6 +252,12 @@ h3 {
   h2 {
     font-size: 4.5vw;
   }
+  .page-header {
+    font-family: "Bowlby One SC", sans-serif;
+    font-size: 4em;
+    margin-left: -5px;
+    color: black;
+  }
   .article-text-padding {
     margin-left: 5vw;
     margin-right: 5vw;
@@ -308,11 +269,6 @@ h3 {
     z-index: 0;
     position: absolute;
     bottom: -10vw;
-    /*-webkit-box-ordinal-group: 4;
-       -moz-box-ordinal-group: 4;
-               -ms-flex-order: 4;
-                -webkit-order: 4;
-                        order: 4;*/
   }
   .credit {
     margin-left: 5vw;
