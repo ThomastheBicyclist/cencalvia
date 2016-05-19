@@ -310,6 +310,8 @@ h3 {
     display: block;
     z-index: 0;
     bottom: -13vw;
+    -webkit-order: 4;
+            order: 4;
   }
   .credit {
     margin-left: 5vw;
