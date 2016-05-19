@@ -313,11 +313,11 @@ h3 {
   }
   .credit {
     margin-left: 5vw;
-    z-index: -4;
+    z-index: 0;
   }
   .thomas {
     margin-right: 5vw;
-    z-index: -4;
+    z-index: 0;
   }
   .site {
     display: -webkit-block;
