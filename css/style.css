@@ -58,8 +58,8 @@ nav {
 footer {
   border-top: 5px solid rgba(252, 218, 0, 1);
   min-height: 50px;
-  -webkit-order: 4;
-          order: 4;
+  -webkit-order: 20;
+          order: 20;
 }
 
 .hero {
@@ -89,18 +89,6 @@ footer {
 	display: block;
 	content: "";
 	padding: 30%;
-}
-
-#headline {
-    font-family: 'Niagaraphobia', cursive;
-    color: rgba(252, 218, 0, 1);
-        font-size: 12.5vw;
-    line-height: 18vw;
-    max-width: 830px;
-    /*-webkit-text-stroke: 2px black;
-    text-shadow:
-        4px 4px 0 black,
-      -1px -1px 0 black;*/
 }
 
 .hero-text-container {
@@ -260,7 +248,7 @@ h3 {
        flex-direction: column;
   }
 
-  #main > #left-space, #main > #right-space, #main > article {
+  #main > #left-space, #main > #right-space, #main > article, #main > footer {
     -webkit-order: 0;
             order: 0;
   }
@@ -307,8 +295,8 @@ h3 {
     width: 100%;
     z-index: 0;
     bottom: -13vw;
-    -webkit-order: 4;
-            order: 4;
+    -webkit-order: 20;
+            order: 20;
   }
   .credit {
     margin-left: 5vw;
