@@ -1,7 +1,7 @@
-/*rgba(230, 230, 0, 1);
-rgba(150, 200, 0, 1);
+/*rgba(252, 218, 0, 1);
+rgba(137, 197, 64, 1);
 rgba(0, 65, 60, 1);
-rgba(0, 40, 20, 1);*/
+black;*/
 
 body {
   background: white;
@@ -46,19 +46,23 @@ body {
 nav, footer {
  display: block;
  min-height: 68px;
+<<<<<<< HEAD
  background: rgba(150, 200, 0, 1);
+=======
+ background: rgba(137, 197, 64, 1);
+>>>>>>> master
  flex: none;
  }
 
 nav {
-  border-bottom: 5px solid rgba(230, 230, 0, 1);
+  border-bottom: 5px solid rgba(252, 218, 0, 1);
   padding-right: 5vw;
   padding-left: 5vw;
   z-index: 100 !important;
 }
 
 footer {
-  border-top: 5px solid rgba(230, 230, 0, 1);
+  border-top: 5px solid rgba(252, 218, 0, 1);
   min-height: 50px;
   -webkit-order: 4;
           order: 4;
@@ -70,7 +74,6 @@ footer {
 	background-position: center;
 	background-repeat: no-repeat;
   z-index: 0 !important;
-  border-bottom: 3px solid rgba(230, 230, 0, 1);
 }
 
 .hero:before {
@@ -79,17 +82,31 @@ footer {
 	padding: 30%;
 }
 
+.logo-div {
+  margin-top: -25vw;
+  background-image: url(../images/cencalvia2-yellow-green.svg);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+  z-index: 1 !important;
+}
+
+.logo-div:before {
+	display: block;
+	content: "";
+	padding: 30%;
+}
+
 #headline {
-    font-family: 'Kaushan Script', cursive;
-    color: rgba(230, 230, 0, 1);
-    font-weight: 400;
-    font-size: 12.5vw;
+    font-family: 'Niagaraphobia', cursive;
+    color: rgba(252, 218, 0, 1);
+        font-size: 12.5vw;
     line-height: 18vw;
     max-width: 830px;
-    /*-webkit-text-stroke: 2px rgba(0, 40, 20, 1);
+    /*-webkit-text-stroke: 2px black;
     text-shadow:
-        4px 4px 0 rgba(0, 40, 20, 1),
-      -1px -1px 0 rgba(0, 40, 20, 1);*/
+        4px 4px 0 black,
+      -1px -1px 0 black;*/
 }
 
 .hero-text-container {
@@ -101,9 +118,8 @@ footer {
 
 #subhead {
   position: inherit;
-  font-family: 'Helvetica';
+  font-family: 'Bowlby One SC', cursive;
   color: white;
-  font-weight: bolder;
   font-size: 3vw;
   margin-left: 8%;
   line-height: 3vw;
@@ -120,7 +136,7 @@ h2 {
   font-family: sans-serif;
   font-style: normal;
   font-weight: bolder;
-  color: rgba(0, 40, 20, 1);
+  color: black;
 }
 
 p {
@@ -147,26 +163,35 @@ p {
 }
 a {
   text-decoration: none;
-  color: rgba(140, 180, 0, 1);
+  color: rgba(36, 145, 208, 1);
 }
 
 #map {
   height: 300px;
   margin-bottom: 20px;
-  border-bottom: 3px solid rgba(230, 230, 0, 1);
+  border-bottom: 3px solid rgba(252, 218, 0, 1);
 }
 
 h3 {
-  font-family: "Helvetica", sans-serif;
-  color: rgba(140, 180, 0, 1);
+  font-family: "Bowlby One SC", sans-serif;
+  font-size: 2.5em;
   margin-bottom: -14px;
+}
+.blue {
+  color: rgba(36, 145, 208, 1);
+}
+.yellow {
+  color: rgba(252, 218, 0, 1);
+}
+.green {
+  color: rgba(137, 197, 64, 1);
 }
 
 .the-plan, .page-header {
-  font-family: "Kaushan Script", sans-serif;
+  font-family: "Bowlby One SC", sans-serif;
   font-size: 5em;
   margin-left: -15px;
-  color: rgba(0, 40, 20, 1);
+  color: black;
 }
 
 .spacer-div {
@@ -180,7 +205,7 @@ h3 {
   background-repeat: no-repeat;
   margin-top: 0px;
   z-index: 0;
-  border-bottom: 3px solid rgba(230, 230, 0, 1);
+  border-bottom: 3px solid rgba(252, 218, 0, 1);
 }
 .heart-ciclovia:before {
 	display: block;
@@ -196,7 +221,7 @@ h3 {
   display: block;
 }
 .credit a {
-  color: rgba(0, 40, 20, 1);
+  color: black;
 }
 .thomas {
   font-family: "Helvetica", sans-serif;
@@ -249,7 +274,7 @@ h3 {
 
 @media only screen and (max-width: 640px) {
   nav {
-    border-bottom: 3px solid rgba(230, 230, 0, 1);
+    border-bottom: 3px solid rgba(252, 218, 0, 1);
   }
   .navbar-text {
     margin-top: 22px;
@@ -274,7 +299,7 @@ h3 {
     margin-right: 5vw;
   }
   footer {
-    border-top: 3px solid rgba(230, 230, 0, 1);
+    border-top: 3px solid rgba(252, 218, 0, 1);
     min-height: 50px;
     display: block;
     z-index: -5
