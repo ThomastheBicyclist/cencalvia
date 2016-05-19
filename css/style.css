@@ -8,7 +8,7 @@ body {
   margin: 0px;
 }
 
-#main {
+/*#main {
  margin: 0px;
  padding: 0px;
  display: -webkit-flex;
@@ -16,30 +16,33 @@ body {
  -webkit-flex-flow: row;
          flex-flow: row;
   z-index: 0;
- }
+ }*/
 
 #main > article {
- background: white;
+  margin-left: 15%;
+  margin-right: 15%;
+ /*background: white;
  -webkit-flex: 3 1 70%;
          flex: 3 1 70%;
  -webkit-order: 2;
-         order: 2;
+         order: 2;*/
  }
 
 #main > #left-space {
- background: white;
+ /*background: white;
  -webkit-flex: 1 6 15%;
          flex: 1 6 15%;
  -webkit-order: 1;
-         order: 1;
+         order: 1;*/
  }
 
 #main > #right-space {
- background: white;
+
+ /*background: white;
  -webkit-flex: 1 6 15%;
          flex: 1 6 15%;
  -webkit-order: 3;
-         order: 3;
+         order: 3;*/
  }
 
 nav, footer {
@@ -243,19 +246,24 @@ h3 {
     position: relative;
   }
 
-  #main, #page {
+  #main > article {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%
+  }
+  /*#main, #page {
     -webkit-flex-flow: column;
        flex-direction: column;
   }
 
   #main > #left-space, #main > #right-space, #main > article {
 
-   -webkit-box-ordinal-group: 0;   /* OLD - iOS 6-, Safari 3.1-6 */
-      -moz-box-ordinal-group: 0;      /* OLD - Firefox 19- */
-              -ms-flex-order: 0;              /* TWEENER - IE 10 */
-               -webkit-order: 0;               /* NEW - Chrome */
+   -webkit-box-ordinal-group: 0;
+      -moz-box-ordinal-group: 0;
+              -ms-flex-order: 0;
+               -webkit-order: 0;
                        order: 0;
-  }
+  }*/
 
   #main > #left-space, #main > #right-space {
     min-height: 0px;
