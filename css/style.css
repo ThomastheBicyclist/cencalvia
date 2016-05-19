@@ -308,7 +308,7 @@ h3 {
     width: 100%;
     display: block;
     z-index: 0;
-    position: absolute;
+    position: relative;
     bottom: -13vw;
   }
   .credit {
