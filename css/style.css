@@ -309,8 +309,8 @@ h3 {
   .site {
     display: -webkit-block;
     display: block;
-    -webkit-flex-flow: auto;
-            flex-flow: auto;
+    -webkit-flex-flow: none;
+            flex-flow: none;
     min-height: 0px;
   }
   .site-content {
