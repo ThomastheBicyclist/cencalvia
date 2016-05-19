@@ -306,8 +306,6 @@ h3 {
     border-top: 3px solid rgba(252, 218, 0, 1);
     min-height: 50px;
     width: 100%;
-    postion: absolute;
-    display: block;
     z-index: 0;
     bottom: -13vw;
     -webkit-order: 4;
