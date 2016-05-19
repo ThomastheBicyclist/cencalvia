@@ -298,12 +298,13 @@ h3 {
     min-height: 50px;
     width: 100%;
     z-index: 0;
-    bottom: -13vw;
-    -webkit-box-ordinal-group: 4;   /* OLD - iOS 6-, Safari 3.1-6 */
-       -moz-box-ordinal-group: 4;      /* OLD - Firefox 19- */
-               -ms-flex-order: 4;              /* TWEENER - IE 10 */
-                -webkit-order: 4;               /* NEW - Chrome */
-                        order: 4;
+    position: absolute;
+    bottom: -10vw;
+    /*-webkit-box-ordinal-group: 4;
+       -moz-box-ordinal-group: 4;
+               -ms-flex-order: 4;
+                -webkit-order: 4;
+                        order: 4;*/
   }
   .credit {
     margin-left: 5vw;
