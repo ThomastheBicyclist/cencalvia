@@ -46,7 +46,6 @@ nav, footer {
  display: block;
  min-height: 68px;
  background: rgba(137, 197, 64, 1);
- flex: none;
  }
 
 nav {
