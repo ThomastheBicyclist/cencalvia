@@ -248,13 +248,15 @@ h3 {
           flex: 1;
 }
 
-/* Too narrow to support three columns */
-@media all and (max-width: 640px) {
-
-
+.less-top-margin-h3 {
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 640px) {
+  html {
+    position: relative;
+  }
+
   #main, #page {
     -webkit-flex-flow: column;
        flex-direction: column;
@@ -292,6 +294,9 @@ h3 {
   .subhead-container {
     margin-top: 1%;
   }
+  .the-plan {
+    margin-bottom: -25vw;
+  }
   h2 {
     font-size: 4.5vw;
   }
@@ -302,8 +307,11 @@ h3 {
   footer {
     border-top: 3px solid rgba(252, 218, 0, 1);
     min-height: 50px;
+    width: 100%;
     display: block;
-    z-index: 0
+    z-index: 0;
+    position: absolute;
+    bottom: -13vw;
   }
   .credit {
     margin-left: 5vw;
