@@ -13,13 +13,17 @@ body {
   margin-right: 15%;
  }
 
-nav, footer {
+footer {
  display: block;
- min-height: 68px;
+ min-height: 90px;
  background: rgba(137, 197, 64, 1);
+ height: 58px;
  }
 
 nav {
+  display: block;
+  min-height: 68px;
+  background: rgba(137, 197, 64, 1);
   border-bottom: 5px solid rgba(252, 218, 0, 1);
   padding-right: 5vw;
   padding-left: 5vw;
@@ -29,8 +33,6 @@ nav {
 footer {
   border-top: 5px solid rgba(252, 218, 0, 1);
   min-height: 50px;
-  -webkit-order: 20;
-          order: 20;
 }
 
 .hero {
@@ -166,31 +168,33 @@ h3 {
 	padding: 33%;
 }
 
-.credit {
+.left-footer-div {
   font-family: "Helvetica", sans-serif;
   font-size: 11px;
   margin-left: 15%;
   margin-top: 14px;
   display: block;
 }
-.credit a {
+.left-footer-div a {
   color: black;
 }
-.thomas {
+.right-footer-div {
   font-family: "Helvetica", sans-serif;
   font-size: 11px;
   margin-right: 15%;
   margin-top: -13px;
   float: right;
   display: block;
+  text-align: right;
 }
-.thomas-about {
+.right-footer-div-about {
   font-family: "Helvetica", sans-serif;
   font-size: 11px;
   margin-right: 15%;
   margin-top: 14px;
   float: right;
   display: block;
+  text-align: right;
 }
 
 .site {
@@ -264,17 +268,16 @@ h3 {
   }
   footer {
     border-top: 3px solid rgba(252, 218, 0, 1);
-    min-height: 50px;
     width: 100%;
     z-index: 0;
     position: absolute;
-    bottom: -10vw;
+    bottom: -5vw;
   }
-  .credit {
+  .left-footer-div {
     margin-left: 5vw;
     z-index: 0;
   }
-  .thomas {
+  .right-footer-div {
     margin-right: 5vw;
     z-index: 0;
   }
