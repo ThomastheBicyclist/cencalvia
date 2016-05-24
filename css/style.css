@@ -114,7 +114,7 @@ p {
   padding-top: 25px;
   height: 0;
 }
-.videoWrapper iframe {
+.videoWrapper > .vimeoVideo {
   position: absolute;
   top: 0;
   left: 0;
