@@ -182,24 +182,38 @@ footer {
   min-height: 50px;
 }
 
-.FCBC-footer-link {
+.footer-links {
   background: rgba(137, 197, 64, 1);
   width: 100%;
   height: auto;
 }
 
-.FCBC-footer-link > p, .FCBC-logo-div {
+.footer-links > p, .FCBC-logo-div {
   font-family: "Helvetica", sans-serif;
   font-size: 11px;
   margin-left: 15%;
   margin-top: 0vw;
-  display: block;
 }
 
-.FCBC-footer-link > p {
+.footer-links > p {
   padding-top: 2vw;
 }
 
+.footer-links-flex-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.organized-by {
+  flex: none;
+  order: none;
+  flex-grow: none;
+}
 .FCBC-logo-div {
   background-image: url(../images/FCBC-LOGO-T.png);
   background-size: 100%;
@@ -208,14 +222,78 @@ footer {
   width: 15vw;
   height: 0vw;
   padding-bottom: 12vw;
+  order: 2;
+  flex-grow: 1;
+  margin-left: 2vw;
+  /*margin-right: 2vw;*/
+  margin-top: 2vw;
+  margin-bottom: 2vw;
 }
-
 .FCBC-logo-div:before {
   display: block;
 	content: "";
 	padding: 33%;
 }
-
+.Cultiva-logo-div {
+  background-image: url(../images/cultiva-243x123px.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15vw;
+  height: 0vw;
+  padding-bottom: 12vw;
+  order: 3;
+  flex-grow: 1;
+  margin-left: 2vw;
+  /*margin-right: 2vw;*/
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.Cultiva-logo-div:before {
+  display: block;
+	content: "";
+	padding: 33%;
+}
+.CVCF-logo-div {
+  background-image: url(../images/CVCF-264x182px.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 0vw;
+  padding-bottom: 12vw;
+  order: 4;
+  flex-grow: 1;
+  margin-left: 2vw;
+  /*margin-right: 2vw;*/
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.CVCF-logo-div:before {
+  display: block;
+	content: "";
+	padding: 33%;
+}
+.Bici-logo-div {
+  background-image: url(../images/BiciProjects-500x500px.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10vw;
+  height: 0vw;
+  padding-bottom: 12vw;
+  order: 5;
+  flex-grow: 1;
+  margin-left: 2vw;
+  /*margin-right: 2vw;*/
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+}
+.Bici-logo-div:before {
+  display: block;
+	content: "";
+	padding: 33%;
+}
 .footer-credits {
   background: gray;
   height: 5vw;
@@ -333,21 +411,16 @@ footer {
     position: absolute;
     bottom: -5vw;
   }
-  .FCBC-logo-div {
-    background-image: url(../images/FCBC-LOGO-T.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 30vw;
-    height: 9vw;
-    padding-bottom: 11vw;
-  }
-  .FCBC-footer-link > p,
-  .FCBC-footer-link > a,
-  .FCBC-footer-link > a > div {
+  .footer-links-flex-parent {
+    margin-right: 5vw;
     margin-left: 5vw;
   }
-  .FCBC-footer-link > p {
+  .footer-links > p,
+  .footer-links > a,
+  .footer-links > a > div {
+    margin-left: 5vw;
+  }
+  .footer-links > p {
     padding-top: 5vw;
   }
   .footer-credits {
