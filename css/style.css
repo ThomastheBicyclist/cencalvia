@@ -22,7 +22,7 @@ footer {
 nav {
   display: block;
   min-height: 68px;
-  background: rgba(137, 197, 64, 1);
+  background: gray;
   border-bottom: 5px solid rgba(252, 218, 0, 1);
   padding-right: 5vw;
   padding-left: 5vw;
