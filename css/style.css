@@ -338,6 +338,12 @@ footer {
   .FCBC-footer-link > a > div {
     margin-left: 5vw;
   }
+  .FCBC-footer-link > p {
+    padding-top: 5vw;
+  }
+  .footer-credits {
+    padding-bottom: 3em;
+  }
   .left-footer-div {
     margin-left: 5vw;
   }
