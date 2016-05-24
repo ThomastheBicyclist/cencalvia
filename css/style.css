@@ -316,6 +316,9 @@ footer {
     margin-left: 5vw;
     margin-right: 5vw;
   }
+  .last-p-contact {
+    margin-bottom: 50px;
+  }
   footer {
     border-top: 3px solid rgba(252, 218, 0, 1);
     width: 100%;
