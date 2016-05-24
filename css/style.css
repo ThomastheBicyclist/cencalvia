@@ -19,6 +19,10 @@ footer {
  height: 58px;
  }
 
+.article-text-padding {
+ margin-top: 4vw;
+}
+
 nav {
   display: block;
   min-height: 68px;
@@ -152,7 +156,7 @@ h3 {
   font-family: "Bowlby One SC", sans-serif;
   font-size: 8vw;
   margin-left: -10px;
-  color: black;
+  color: gray;
 }
 
 .spacer-div {
@@ -312,7 +316,8 @@ footer {
   h2 {
     font-size: 4.5vw;
   }
-  .article-text-padding {
+  .article-text-padding,
+  .article-text-padding-index {
     margin-left: 5vw;
     margin-right: 5vw;
   }
