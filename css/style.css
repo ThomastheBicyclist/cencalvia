@@ -150,7 +150,7 @@ h3 {
 
 .the-plan, .page-header {
   font-family: "Bowlby One SC", sans-serif;
-  font-size: 4em;
+  font-size: 8vw;
   margin-left: -10px;
   color: black;
 }
@@ -302,17 +302,15 @@ footer {
   .subhead-container {
     margin-top: 1%;
   }
+  .the-plan, .page-header {
+    font-family: "Bowlby One SC", sans-serif;
+    font-size: 14vw;
+  }
   .the-plan {
     margin-bottom: -25vw;
   }
   h2 {
     font-size: 4.5vw;
-  }
-  .page-header {
-    font-family: "Bowlby One SC", sans-serif;
-    font-size: 4em;
-    margin-left: -5px;
-    color: black;
   }
   .article-text-padding {
     margin-left: 5vw;
