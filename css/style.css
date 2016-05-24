@@ -16,7 +16,6 @@ body {
 footer {
  display: block;
  min-height: 90px;
- background: rgba(137, 197, 64, 1);
  height: 58px;
  }
 
@@ -27,12 +26,6 @@ nav {
   border-bottom: 5px solid rgba(252, 218, 0, 1);
   padding-right: 5vw;
   padding-left: 5vw;
-  z-index: 100 !important;
-}
-
-footer {
-  border-top: 5px solid rgba(252, 218, 0, 1);
-  min-height: 50px;
 }
 
 .hero {
@@ -40,7 +33,6 @@ footer {
 	background-size: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
-  z-index: 0 !important;
 }
 
 .hero:before {
@@ -116,7 +108,21 @@ p {
   margin-top: 20px;
   color: white;
 }
-a {
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a, a p {
   text-decoration: none;
   color: rgba(36, 145, 208, 1);
 }
@@ -159,7 +165,6 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 0px;
-  z-index: 0;
   border-bottom: 3px solid rgba(252, 218, 0, 1);
 }
 .heart-ciclovia:before {
@@ -168,11 +173,58 @@ h3 {
 	padding: 33%;
 }
 
+footer {
+  border-top: 5px solid rgba(252, 218, 0, 1);
+  min-height: 50px;
+}
+
+.FCBC-footer-link {
+  background: rgba(137, 197, 64, 1);
+  width: 100%;
+  height: auto;
+}
+
+.FCBC-footer-link > p, .FCBC-logo-div {
+  font-family: "Helvetica", sans-serif;
+  font-size: 11px;
+  margin-left: 15%;
+  margin-top: 0vw;
+  display: block;
+}
+
+.FCBC-footer-link > p {
+  padding-top: 2vw;
+}
+
+.FCBC-logo-div {
+  background-image: url(../images/FCBC-LOGO-T.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15vw;
+  height: 0vw;
+  padding-bottom: 12vw;
+}
+
+.FCBC-logo-div:before {
+  display: block;
+	content: "";
+	padding: 33%;
+}
+
+.footer-credits {
+  background: gray;
+  height: 5vw;
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+  display: block;
+}
+
 .left-footer-div {
   font-family: "Helvetica", sans-serif;
   font-size: 11px;
   margin-left: 15%;
-  margin-top: 14px;
+  padding-top: 14px;
   display: block;
 }
 .left-footer-div a {
@@ -269,17 +321,28 @@ h3 {
   footer {
     border-top: 3px solid rgba(252, 218, 0, 1);
     width: 100%;
-    z-index: 0;
     position: absolute;
     bottom: -5vw;
   }
+  .FCBC-logo-div {
+    background-image: url(../images/FCBC-LOGO-T.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 9vw;
+    padding-bottom: 11vw;
+  }
+  .FCBC-footer-link > p,
+  .FCBC-footer-link > a,
+  .FCBC-footer-link > a > div {
+    margin-left: 5vw;
+  }
   .left-footer-div {
     margin-left: 5vw;
-    z-index: 0;
   }
   .right-footer-div {
     margin-right: 5vw;
-    z-index: 0;
   }
   .site {
     display: -webkit-block;
