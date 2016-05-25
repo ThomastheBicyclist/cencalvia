@@ -1,6 +1,7 @@
 /*rgba(252, 218, 0, 1);
 rgba(137, 197, 64, 1);
-rgba(0, 65, 60, 1);
+rgba(36, 145, 208, 1);
+
 black;*/
 
 body {
@@ -30,6 +31,16 @@ nav {
   border-bottom: 5px solid rgba(252, 218, 0, 1);
   padding-right: 5vw;
   padding-left: 5vw;
+}
+
+#nav-home {
+  color: rgba(137, 197, 64, 1);
+}
+#nav-about {
+  color: white;
+}
+#nav-contact {
+  color: rgba(252, 218, 0, 1);
 }
 
 .hero {
@@ -134,7 +145,7 @@ a, a p {
 #map {
   height: 300px;
   margin-bottom: 20px;
-  border-bottom: 3px solid rgba(252, 218, 0, 1);
+  border-bottom: 3px solid rgba(36, 145, 208, 1);
 }
 
 h3 {
@@ -178,14 +189,15 @@ h3 {
 }
 
 footer {
-  border-top: 5px solid rgba(252, 218, 0, 1);
+  border-top: 5px solid rgba(137, 197, 64, 1);
   min-height: 50px;
 }
 
 .footer-links {
-  background: rgba(137, 197, 64, 1);
+  background: white;
   width: 100%;
   height: auto;
+  border-bottom: 2px solid rgba(252, 218, 0, 1);
 }
 
 .footer-links > p, .FCBC-logo-div {
@@ -235,7 +247,7 @@ footer {
 	padding: 33%;
 }
 .Cultiva-logo-div {
-  background-image: url(../images/cultiva-243x123px.jpg);
+  background-image: url(../images/cultiva-logo.svg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -255,7 +267,7 @@ footer {
 	padding: 33%;
 }
 .CVCF-logo-div {
-  background-image: url(../images/CVCF-264x182px.png);
+  background-image: url(../images/cvcf-logo.svg);
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -364,7 +376,7 @@ footer {
   }
 
   nav {
-    border-bottom: 3px solid rgba(252, 218, 0, 1);
+    border-bottom: 3px solid rgba(137, 197, 64, 1);
   }
   .navbar-text {
     margin-top: 22px;
@@ -406,7 +418,7 @@ footer {
     margin-bottom: 50px;
   }
   footer {
-    border-top: 3px solid rgba(252, 218, 0, 1);
+    border-top: 3px solid rgba(137, 197, 64, 1);
     width: 100%;
     position: absolute;
     bottom: -5vw;
