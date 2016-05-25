@@ -1,24 +1,28 @@
-/*rgba(252, 218, 0, 1);
-rgba(137, 197, 64, 1);
-rgba(36, 145, 208, 1);
-
-black;*/
+.blue {
+  color: rgba(36, 145, 208, 1);
+}
+.yellow {
+  color: rgba(252, 218, 0, 1);
+}
+.green {
+  color: rgba(137, 197, 64, 1);
+}
+.white {
+  color: white;
+}
 
 body {
   background: white;
   margin: 0px;
 }
 
-#main > article {
+article {
   margin-left: 15%;
   margin-right: 15%;
+  padding-bottom: 30px;
  }
 
-footer {
- display: block;
- min-height: 90px;
- height: 58px;
- }
+
 
 .article-text-padding {
  margin-top: 2vw;
@@ -28,16 +32,18 @@ nav {
   display: block;
   min-height: 68px;
   background: gray;
-  border-bottom: 5px solid rgba(252, 218, 0, 1);
   padding-right: 5vw;
   padding-left: 5vw;
+}
+.navborder-home {
+  border-bottom: 5px solid rgba(137, 197, 64, 1);
+}
+.navborder-contact {
+  border-bottom: 5px solid rgba(252, 218, 0, 1);
 }
 
 #nav-home {
   color: rgba(137, 197, 64, 1);
-}
-#nav-about {
-  color: white;
 }
 #nav-contact {
   color: rgba(252, 218, 0, 1);
@@ -153,15 +159,6 @@ h3 {
   font-size: 2.5em;
   margin-bottom: -14px;
 }
-.blue {
-  color: rgba(36, 145, 208, 1);
-}
-.yellow {
-  color: rgba(252, 218, 0, 1);
-}
-.green {
-  color: rgba(137, 197, 64, 1);
-}
 
 .the-plan, .page-header {
   font-family: "Bowlby One SC", sans-serif;
@@ -189,10 +186,12 @@ h3 {
 }
 
 footer {
-  border-top: 5px solid rgba(137, 197, 64, 1);
+  border-top: 5px solid gray;
   min-height: 50px;
-}
-
+  display: block;
+  min-height: 90px;
+  height: 58px;
+ }
 .footer-links {
   background: white;
   width: 100%;
@@ -367,7 +366,7 @@ footer {
   #main > article {
     margin-left: 0;
     margin-right: 0;
-    width: 100%
+    width: 100%;
   }
 
   #main > #left-space, #main > #right-space {
@@ -376,7 +375,7 @@ footer {
   }
 
   nav {
-    border-bottom: 3px solid rgba(137, 197, 64, 1);
+    border-bottom-width: 3px;
   }
   .navbar-text {
     margin-top: 22px;
@@ -414,11 +413,9 @@ footer {
   .article-text-padding {
    margin-top: 5vw;
   }
-  .last-p {
-    margin-bottom: 50px;
-  }
+
   footer {
-    border-top: 3px solid rgba(137, 197, 64, 1);
+    border-top-width: 3px;
     width: 100%;
     position: absolute;
     bottom: -5vw;
